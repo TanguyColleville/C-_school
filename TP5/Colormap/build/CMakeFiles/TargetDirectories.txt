@@ -1,0 +1,8 @@
+/Users/tanguycolleville/Documents/CS_3A/SDI/C++ Advanced/TP5/Colormap/build/CMakeFiles/rebuild_cache.dir
+/Users/tanguycolleville/Documents/CS_3A/SDI/C++ Advanced/TP5/Colormap/build/CMakeFiles/edit_cache.dir
+/Users/tanguycolleville/Documents/CS_3A/SDI/C++ Advanced/TP5/Colormap/build/src/CMakeFiles/rebuild_cache.dir
+/Users/tanguycolleville/Documents/CS_3A/SDI/C++ Advanced/TP5/Colormap/build/src/CMakeFiles/edit_cache.dir
+/Users/tanguycolleville/Documents/CS_3A/SDI/C++ Advanced/TP5/Colormap/build/src/CMakeFiles/colormap.dir
+/Users/tanguycolleville/Documents/CS_3A/SDI/C++ Advanced/TP5/Colormap/build/examples/CMakeFiles/rebuild_cache.dir
+/Users/tanguycolleville/Documents/CS_3A/SDI/C++ Advanced/TP5/Colormap/build/examples/CMakeFiles/edit_cache.dir
+/Users/tanguycolleville/Documents/CS_3A/SDI/C++ Advanced/TP5/Colormap/build/examples/CMakeFiles/testColorMap.dir

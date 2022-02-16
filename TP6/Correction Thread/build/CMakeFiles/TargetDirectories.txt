@@ -1,0 +1,3 @@
+/Users/tanguycolleville/Documents/CS_3A/SDI/C++ Advanced/TP6/Correction Thread/build/CMakeFiles/rebuild_cache.dir
+/Users/tanguycolleville/Documents/CS_3A/SDI/C++ Advanced/TP6/Correction Thread/build/CMakeFiles/edit_cache.dir
+/Users/tanguycolleville/Documents/CS_3A/SDI/C++ Advanced/TP6/Correction Thread/build/CMakeFiles/threads.dir

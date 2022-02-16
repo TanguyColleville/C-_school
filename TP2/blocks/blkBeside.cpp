@@ -1,0 +1,40 @@
+#include "blkBlock.hpp"
+#include "blkBeside.hpp"
+
+// To be done
+namespace blk {
+    expr beside(expr op1, expr op2){
+        return std::make_shared<Beside>(op1,op2);
+    };
+    Beside::Beside(expr op1, expr op2):
+        Block(compute_width(op1,op2),
+        compute_height(op1,op2),
+        compute_ref_width(op1,op2),
+        compute_ref_height(op1,op2)),
+        op1(op1),
+        op2(op2){};
+    Beside::~Beside(){};
+
+   int Beside::compute_width     (expr op1, expr op2){
+    return op1->get_width()+op2->get_width();
+};
+
+int Beside::compute_height    (expr op1, expr op2){
+    return compute_ref_height(op1,op2)+std::max(op1->get_height()-op1->get_ref_height(),op2->get_height()-op2->get_ref_height());
+};
+
+int Beside::compute_ref_width (expr op1, expr op2){
+    return op1->get_ref_width();
+};
+
+int Beside::compute_ref_height(expr op1, expr op2){
+    return std::max(op1->get_ref_height(),op2->get_ref_height());
+};
+
+void Beside::print_inbounds_line(std::ostream& os, int line) const{
+    this->op1->print_line(os,line);// si y'a rien il fait rien partie hachurée du schéma
+    this->op2->print_line(os,line);// et il print la ligne du block deux
+}
+
+}
+
